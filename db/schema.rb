@@ -15,25 +15,18 @@ ActiveRecord::Schema.define(version: 2021_02_11_185140) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "mezze_orders", force: :cascade do |t|
-    t.integer "order_id"
-    t.integer "mezze_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "mezzes", force: :cascade do |t|
-    t.string "protein"
-    t.string "salad"
-    t.string "side"
-    # make sure to create attributes for sides 1, 2, and 3
-    # maybe create pricing per item?
+    t.string "name"
+    t.integer "calories"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
+  
+# mezzes should contain the price, not Orders 
 
   create_table "orders", force: :cascade do |t|
     t.integer "user_id"
+    t.integer "mezze_id"
     t.float "price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

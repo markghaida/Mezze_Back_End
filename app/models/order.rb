@@ -1,4 +1,4 @@
 class Order < ApplicationRecord
-    belongs_to :user 
-    has_many :mezzeorders
+    belongs_to :user
+    belongs_to :mezze
 end

@@ -10,7 +10,20 @@ class OrdersController < ApplicationController
     end 
 
     def create
-        order = Order.create(params)
+
+        order = Order.create(user_id: params[:user_id], mezze_id: params[:mezze_id], price: params[:price])
         render json: order 
+    end 
+
+    def update
+        order = Order.find(params[:id])
+        order.update(mezze_id: params[:mezze_id])
+        render json: order 
+    end 
+
+    def destroy 
+        order = Order.find(params[:id])
+        order.destroy
+        render json: {}
     end 
 end

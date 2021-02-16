@@ -1,4 +1,4 @@
 class Mezze < ApplicationRecord
-    has_many :mezzeorders 
-    has_many :orders, through: :mezzeorders
+    has_many :orders
+    has_many :users, through: :orders 
 end

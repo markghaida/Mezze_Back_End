@@ -10,7 +10,7 @@ class MezzesController < ApplicationController
     end 
 
     def create 
-        mezze = Mezze.create(params)
+        mezze = Mezze.create(name: params[:name], calories: params[:calories])
         render json: mezze
     end 
 end

@@ -1,3 +1,6 @@
 class MezzeSerializer < ActiveModel::Serializer
-  attributes :id, :protein, :salad, :side
+  attributes :id, :name, :calories
+
+  has_many :orders
+  has_many :users
 end

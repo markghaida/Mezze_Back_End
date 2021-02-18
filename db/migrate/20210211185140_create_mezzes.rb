@@ -7,6 +7,7 @@ class CreateMezzes < ActiveRecord::Migration[6.1]
       t.string :description
       t.string :image
       t.boolean :vegetarian
+      t.integer :points
       t.timestamps
     end
   end

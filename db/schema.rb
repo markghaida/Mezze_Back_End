@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2021_02_11_185140) do
     t.string "description"
     t.string "image"
     t.boolean "vegetarian"
+    t.integer "points"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

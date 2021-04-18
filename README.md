@@ -1,3 +1,5 @@
+<img src="Habibi Mezze GitHub ReadMe Cover.png" alt="Honeycomb" width="1200"/>
+
 # README
 
 This README would normally document whatever steps are necessary to get the

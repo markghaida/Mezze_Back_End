@@ -2,9 +2,11 @@
 
 `Habibi Mezze` is a Mediterranean Food-Bowl Ordering App.  The name ***Habibi Mezze*** comes from Arabic.  "Habibi" is a word that can mean "friend" or "love" depending the context.  It's usually expressed as form of endearment.  "Mezze" is a small-plate containing a middle eastern dish, similar to tapas.
 
+Requires [Habibi Mezze front end](https://github.com/as30098/Mezze_Front_End) and [Habibi Mezze back end](https://github.com/markghaida/Mezze_Back_End).
+
 <img src="Habibi Mezze Gallery.gif" alt="Habibi Mezze Gallery" width="1200"/>
 
-Requires [Habibi Mezze front end](https://github.com/as30098/Mezze_Front_End) and [Habibi Mezze back end](https://github.com/markghaida/Mezze_Back_End).
+Photos were taken by a contirbutor to Habibi Mezze, Alex, during her recent trip to Jordan.
 
 ## Live Link & Demo
 

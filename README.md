@@ -1,34 +1,42 @@
 <img src="Habibi Mezze GitHub ReadMe Cover.png" alt="Honeycomb" width="1200"/>
 
-`Honeycomb🐝` provides a way to search for all your bookmarks instead of sifting through folder after folder. The app's mission is to change the way we locate a saved bookmark.
+`Habibi Mezze` is a Mediterranean Food-Bowl Ordering App.  The name ***Habibi Mezze*** comes from Arabic.  "Habibi" is a word that can mean "friend" or "love" depending the context.  It's usually expressed as form of endearment.  "Mezze" is a small-plate containing a middle eastern dish, similar to tapas.
 
-Requires [Honeycomb🐝 front end](https://github.com/markghaida/voronoi-frontend-) and [Honeycomb🐝 back end](https://github.com/markghaida/voronoi-back).
+<img src="Habibi Mezze Gallery.gif" alt="Habibi Mezze Gallery" width="1200"/>
+
+Requires [Habibi Mezze front end](https://github.com/as30098/Mezze_Front_End) and [Habibi Mezze back end](https://github.com/markghaida/Mezze_Back_End).
 
 ## Live Link & Demo
 
-Visit the [Live Link](https://honeycomb-app.netlify.app/) 
+Visit the [Live Link](https://habibi-mezze.netlify.app/) 
 
-Watch the [Demo](https://www.loom.com/share/c99014653d9b42ef8ad25c5ed7229a85)
+Watch the [Demo](https://www.loom.com/share/400468d16b3546f298ecf976634fb0b1)
 
 ## Technologies Used
 
-`Honeycomb🐝` is built with a `React` front end, a `Ruby on Rails` and `PostgreSQL` back end, `Paper.js` for the honeycomb-like design, and `Kumarai Gem` to srape all websites for necessary metadata. All styling was done with custom CSS. The live link for `Honeycomb🐝` is deployed on [Netlify](https://honeycomb-app.netlify.app/) with [Heroku](https://honeycomb-app.herokuapp.com/bookmarks) for the back end.
+`Habibi Mezze` is built with a `React` front end, a `Ruby on Rails` and `PostgreSQL` back end. All styling was done with custom CSS. The live link for `Habibi Mezze` is deployed on [Netlify](https://habibi-mezze.netlify.app/) with [Heroku](https://habibi-mezze.herokuapp.com/mezzes) for the back end.
 
 ## Features
 
-The name ***Honeycomb*** comes from the design of how the bookmarks are displayed.  The design is actually a voronoi diagram which creates a honeycomb effect.  Users are both able to create bookmarks and search for a saved bookmark. Once a user comes across a website they would like to save, they simply have to copy the url and paste it into the search bar.  It is now saved.  Simply search for the site by typing the title of the bookmarked site.
+Add items to cart, delete items from your cart, filter by bowl-type, view your carts total cost, and collect habibi points everytime a bowl is ordered!
 
-### Create a Bookmark
+### Add Bowl to Cart
 
-Users are able to save a bookmark.  Once you navigate to a website that you are interested in saving for later; copy the url address, paste it in the search bar, and then wait a couple seconds.  That's it! It's bookmarked.
+When searching through our list of delicious and quirky-named bowls, click "Add to cart" to order.  Scroll to the bottom of the page to find all items currently in cart.
 
-<img src="How to Save a Bookmark.gif" alt="login" width="800"/>
+<img src="Adding Bowl to Cart.gif" alt="Add Bowl to Cart" width="800"/>
 
-### Search For a Bookmark
+### Delete Bowl From Cart
 
 Once a bookmark is saved, simply begin searching for the website's name.  Honeycomb scrapes the bookmark's h1 title, body text, and main image.
 
-<img src="How to Search For a Bookmark.gif" alt="create request 3" width="800"/>
+<img src="Delete Bowl From Cart.gif" alt="Delete Bowl From Cart" width="800"/>
+
+### Filter Bowls
+
+Once a bookmark is saved, simply begin searching for the website's name.  Honeycomb scrapes the bookmark's h1 title, body text, and main image.
+
+<img src="Filter Bowls.gif" alt="Filter Bowls" width="800"/>
 
 ## License
 
